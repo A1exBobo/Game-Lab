@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bompfwonltw5w"]
+
+[ext_resource type="PackedScene" uid="uid://no1j7jm53833" path="res://assets/Arena/arena.blend" id="1_2g8tn"]
+[ext_resource type="PackedScene" uid="uid://qfd53jrar5g" path="res://assets/ColaCan/colaCan.blend" id="2_jr61g"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_o5qli"]
+
+[sub_resource type="Sky" id="Sky_o5qli"]
+sky_material = SubResource("ProceduralSkyMaterial_o5qli")
+
+[sub_resource type="Environment" id="Environment_o5qli"]
+background_mode = 2
+sky = SubResource("Sky_o5qli")
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 1.5
+
+[node name="Node3D" type="Node3D" unique_id=38132308]
+
+[node name="arena" parent="." unique_id=2057135443 instance=ExtResource("1_2g8tn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.051709652, 0)
+
+[node name="ImporterMeshInstance3D" type="ImporterMeshInstance3D" parent="." unique_id=942525979]
+
+[node name="colaCan" parent="." unique_id=1499672261 instance=ExtResource("2_jr61g")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=418692101]
+transform = Transform3D(-0.99999577, 9.025521e-11, 0.0029147193, 0.00050563493, 0.9848381, 0.17347553, -0.0028705269, 0.17347634, -0.984834, 0, 1.642942, -2.6042562)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2136256408]
+environment = SubResource("Environment_o5qli")

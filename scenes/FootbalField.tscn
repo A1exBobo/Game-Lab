@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://c1vekiobbmwfe"]
+
+[ext_resource type="PackedScene" uid="uid://chcfn34qtot31" path="res://assets/TerenFotbal/TerenFotbal.glb" id="1_0d6tt"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dnhjb"]
+
+[sub_resource type="Sky" id="Sky_o5qli"]
+sky_material = SubResource("ProceduralSkyMaterial_dnhjb")
+
+[sub_resource type="Environment" id="Environment_losbc"]
+background_mode = 2
+sky = SubResource("Sky_o5qli")
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 1.5
+
+[node name="Node3D" type="Node3D" unique_id=216393188]
+
+[node name="TerenFotbal2" parent="." unique_id=664352248 instance=ExtResource("1_0d6tt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.6353722, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=2147077481]
+transform = Transform3D(-0.022544725, 0.6104078, -0.79176635, 0.017373687, 0.79208726, 0.6101605, 0.99959487, 0, -0.028462425, -31.91716, 32.62965, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=667865972]
+environment = SubResource("Environment_losbc")
