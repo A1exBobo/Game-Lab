@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://c31y8ineljbs7"]
+
+[ext_resource type="Texture2D" uid="uid://do0xytexwf5q3" path="res://icon.svg" id="1_qkhwq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_c7uy4"]
+
+[node name="Control" type="Control" unique_id=1738335956]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MapHolderButton" type="OptionButton" parent="." unique_id=248917644]
+layout_mode = 0
+offset_left = 66.0
+offset_top = 239.0
+offset_right = 634.0
+offset_bottom = 280.0
+
+[node name="Label1" type="Label" parent="." unique_id=887670606]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 192.0
+offset_right = 418.0
+offset_bottom = 215.0
+text = "Choose Map"
+label_settings = SubResource("LabelSettings_c7uy4")
+
+[node name="Button" type="Button" parent="." unique_id=1922255732]
+layout_mode = 0
+offset_left = 740.0
+offset_top = 237.0
+offset_right = 1069.0
+offset_bottom = 315.0
+text = "take me to 
+"
+
+[node name="MenuButton" type="MenuButton" parent="." unique_id=2094932130]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 152.0
+offset_bottom = 146.0
+icon = ExtResource("1_qkhwq")
