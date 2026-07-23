@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hl6e6vrg2r0a"
-path.s3tc="res://.godot/imported/TerenFotbal_footballTexture.png-607f83ae4eaac6d18ef26012eb683d87.s3tc.ctex"
+uid="uid://bhm735jf1dmlc"
+path.s3tc="res://.godot/imported/TerenFotbal_footballTexture.png-c52c2aba744271a464eb67ad22ed6b56.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://blender/FotbalField/TerenFotbal_footballTexture.png"
-dest_files=["res://.godot/imported/TerenFotbal_footballTexture.png-607f83ae4eaac6d18ef26012eb683d87.s3tc.ctex"]
+source_file="res://assets/FootballField_Assets/TerenFotbal_footballTexture.png"
+dest_files=["res://.godot/imported/TerenFotbal_footballTexture.png-c52c2aba744271a464eb67ad22ed6b56.s3tc.ctex"]
 
 [params]
 
