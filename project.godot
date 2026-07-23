@@ -12,7 +12,7 @@ config_version=5
 
 config/name="First3D"
 run/main_scene="uid://bld35r38y7l2d"
-config/features=PackedStringArray("4.7", "GL Compatibility")
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [dotnet]
